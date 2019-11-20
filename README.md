@@ -6,30 +6,36 @@ CONTENTS
 ----------
 
 benchmarking.py
-
+----------
   Basic computational scaling testing for First Reaction and Direct implementations of the Gillspie algorithm
-----------
+
+
 cw3.py
-
+----------
   Working file for this coursework, containing all the code required to execute all functions and draw all graphs in this coursework (with a few exceptions)
-----------
+
+
 gillespie.py
-
+----------
   Gillespie simulation module, see below for contents
-----------
+
+
 probability.py
-
-  Python file containing code required to calculate the probability distribution, mean and variance of the distribution derived in this coursework
 ----------
-Question_4.py
+  Python file containing code required to calculate the probability distribution, mean and variance of the distribution derived in this coursework
 
+
+Question_4.py
+----------
   A subsection of cw3.py containing code required to answer Question 4 from this coursework. Copied in a seperate file for ease of marking
   
 --------------------------------------------------
 
 gillespie.py
+----------
 
 gillespie
+----------
 
     Function for performing Gillespie simulations for arbitrary systems, with user-defined
     propensities and transition rules. Transition rules can correspond to reaction 
@@ -68,6 +74,7 @@ gillespie
 ----------
 
 cell_partition
+----------
 
     Function for performing Gillespie simulations for arbitrary cellular systems, including cell division, 
     with user-defined propensities and transition rules. Transition rules can correspond to reaction 
@@ -111,6 +118,7 @@ cell_partition
 ----------
 
 integer_histogram
+----------
 
     Function returning a histogram for integer data.
     
@@ -128,6 +136,7 @@ integer_histogram
 ----------
 
 binned_mean
+----------
 
     Function to calculate the binned mean of a number of time traces. 
     
@@ -155,6 +164,7 @@ binned_mean
 ----------
 
 closest_mean
+----------
 
     Function to calculate the binned mean of a number of time traces. 
     
@@ -183,6 +193,7 @@ closest_mean
 ----------
 
 time_normalised_mean
+----------
 
     Function to calculate the time-normalised mean of time series data
     
@@ -204,6 +215,7 @@ time_normalised_mean
 ----------
 
 time_normalised_var
+----------
 
     Function to calculate the time-normalised variance of time series data
     
@@ -225,6 +237,7 @@ time_normalised_var
 ----------
 
 approximate_bayesian
+----------
 
     Function to perform approximate Bayesian computation on candidate models. 
     Currently hard-coded to only accept experimental data in the form of mean and variance,
