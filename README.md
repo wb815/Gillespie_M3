@@ -5,18 +5,23 @@ Python3 repository for the MRes in Systems and Synthetic Biology Coursework 3 (T
 CONTENTS
 
 benchmarking.py
+
   Basic computational scaling testing for First Reaction and Direct implementations of the Gillspie algorithm
   
 cw3.py
+
   Working file for this coursework, containing all the code required to execute all functions and draw all graphs in this coursework (with a few exceptions)
   
 gillespie.py
+
   Gillespie simulation module, see below for contents
   
 probability.py
+
   Python file containing code required to calculate the probability distribution, mean and variance of the distribution derived in this coursework
   
 Question_4.py
+
   A subsection of cw3.py containing code required to answer Question 4 from this coursework. Copied in a seperate file for ease of marking
   
 --------------------------------------------------
