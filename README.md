@@ -1,6 +1,6 @@
 # Gillespie_M3
 
-Python3 repository for the MRes in Systems and Synthetic Biology Coursework 3 (Theoretical Systems Biology).
+Python3 repository for the MRes in Systems and Synthetic Biology Coursework 3 (Theoretical Systems Biology) at Imperial College London.
 
 CONTENTS
 ----------
