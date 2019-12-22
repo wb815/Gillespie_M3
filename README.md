@@ -22,8 +22,9 @@ gillespie.py
 
 probability.py
 ----------
-  Python file containing code required to calculate the probability distribution, mean and variance of the distribution derived in this coursework
-
+  Python file containing code required to calculate the probability distribution, mean and variance of the distribution derived in this coursework, which is described by the probability mass function
+  
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x;\lambda,p)=\sum\limits_{r=x}^{\infty}\frac{e^{-\lambda}\lambda^r}{x!(r-x)!}p^x(1-p)^{r-x}" title="\Large f(x;\lambda,p)=\sum\limits_{r=x}^{\infty}\frac{e^{-\lambda}\lambda^r}{x!(r-x)!}p^x(1-p)^{r-x}" />
 
 Question_4.py
 ----------
