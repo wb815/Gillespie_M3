@@ -124,7 +124,7 @@ ax6.set_xlabel('Simulation count')
 
 #%% Fano factor convergence, simulation time -> infinity, using time-normalised statistics
 
-tspan = [0, 300000]
+tspan = [0, 3000000]
 y0 = 20
 (t,y) = gillespie(lambda y: propensities(y, k0, k1), transition_rules, tspan, y0,method='direct')
 print("Mean = {:.2f}, variance = {:.2f}, Fano factor = {:.2f}".format(time_normalised_mean(t,y), time_normalised_var(t,y), time_normalised_var(t,y)/time_normalised_mean(t,y)))
