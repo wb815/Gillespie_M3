@@ -195,6 +195,13 @@ closest_mean
 time_normalised_mean
 ----------
 
+
+The formula for time-normalised mean is given by
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\mu(Y)=\frac{1}{\sum\limits_{j=1}^{N}(dt_j)}\sum\limits_{i=1}^{N}(y_idt_i)" title="\Large \mu(Y)=\frac{1}{\sum\limits_{j=1}^{N}(dt_j)}\sum\limits_{i=1}^{N}(y_idt_i)" />
+
+where Y = {y<sub>1</sub>,..,y<sub>N</sub>} and dt<sub>i</sub> is the time spent in state y<sub>i</sub>.
+
     Function to calculate the time-normalised mean of time series data
     
     Parameters:
@@ -216,6 +223,12 @@ time_normalised_mean
 
 time_normalised_var
 ----------
+
+The formula for time-normalised variance is given by
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\sigma^2(Y)=\frac{N}{(N-1)\sum\limits_{j=1}^{N}(dt_j)}\sum\limits_{i=1}^{N}((y_i-\mu)^2dt_i)" title="\Large \sigma^2(Y)=\frac{N}{(N-1)\sum\limits_{j=1}^{N}(dt_j)}\sum\limits_{i=1}^{N}((y_i-\mu)^2dt_i)" />
+
+where Y = {y<sub>1</sub>,..,y<sub>N</sub>} and dt<sub>i</sub> is the time spent in state y<sub>i</sub>.
 
     Function to calculate the time-normalised variance of time series data
     
