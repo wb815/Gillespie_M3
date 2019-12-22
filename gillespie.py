@@ -311,11 +311,11 @@ def time_normalised_var(t,y):
     """
     T = t[-1]-t[0]
     y = np.asarray(y)
-    dt = np.array(t[1:] - t[:-1])
+    dt = t[1:]-t[:-1]
     n = len(t)-1
     
     mu = time_normalised_mean(t,y)
-    var = np.divide(np.sum(np.multiply(np.power(np.subtract(y[:-1],mu),2),t[1:]-t[:-1]),axis=0),T*(1-np.sum(dt)/n))
+    var = np.divide(np.sum(np.multiply(np.power(np.subtract(y[:-1],mu),2),dt),axis=0),T-np.sum(dt)/n)
     return var
 
 def approximate_bayesian(model_set, param_ranges, d_stats, n_samples, epsilon):
