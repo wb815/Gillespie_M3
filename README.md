@@ -167,7 +167,8 @@ binned_mean
 closest_mean
 ----------
 
-    Function to calculate the binned mean of a number of time traces. 
+    Function to calculate the mean of a number of time traces based on the nearest value to 
+    given sample points. 
     
     Parameters:
         t : list of array_like, length (s)
