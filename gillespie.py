@@ -224,7 +224,8 @@ def binned_mean(t, y, tspan, resolution, include_start=True):
 
 def closest_mean(t,y,tspan,resolution):
     """
-    Function to calculate the binned mean of a number of time traces. 
+    Function to calculate the mean of a number of time traces based on the nearest value to 
+    desired sample points.
     Parameters:
         t : list of array_like, length (s)
         List of input time traces
